@@ -25,7 +25,7 @@ Accordion.Item = function AccordionItem({ children, ...restProps }) {
 
 	useEffect(() => {
 		(open !== -1) && (setToggleShow(true));
-	}, []);
+	}, [open]);
 
 	return (
 		<ToggleContext.Provider value={{ toggleShow, setToggleShow }}>

@@ -5,6 +5,7 @@ import OptForm from 'components/opt-form';
 
 function FaqsContainer() {
 	const defaultIndexesOpen = [0];
+	
 	return (
 		<>
 			<Accordion>
